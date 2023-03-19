@@ -12,7 +12,7 @@ namespace FrameWorkTenatativa_1.Controllers
 
         // GET: Departaments
         public ActionResult Index()
-        {
+        {   //LOCAL DA FALHA
             return View(db.Departaments.ToList());
         }
 
