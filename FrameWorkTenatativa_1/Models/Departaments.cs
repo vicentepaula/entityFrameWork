@@ -10,7 +10,7 @@ namespace FrameWorkTenatativa_1.Models
 
         [Required(ErrorMessage = "O campo {0} é obrigatório !!!")]
         public string Name { get; set; }
-
+     
         public virtual ICollection<City> Cities { get; set; }
 
     }
